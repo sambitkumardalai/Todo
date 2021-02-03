@@ -1,0 +1,46 @@
+*{
+	margin:0;
+	padding:0;
+}
+.addtodoimg
+{
+	 height :250px;
+	 width:250px;
+	 margin-left:80px;
+	 margin-top:2px;
+}
+.addtodopage
+{
+	background-color:#bfbfbf;
+	border-radius:5px;
+	width:50%;
+	margin:40px auto ;
+	padding:1%;
+}
+input{
+	width:90%;
+	margin:0px 0px 4px 38px;
+	box-sizing: border-box;
+	padding: 10px;
+	border-radius:5px;
+}
+input[type=submit]
+{
+	background-color:#3d3d3d;
+	color:white;
+	font-size:15px;
+}
+input[type=submit]:hover{
+	background-color:rgb(26, 26, 26);
+	transition:0.5s;
+}
+.span{
+	display:block;
+	padding:0px 0px 0px 50px;
+	color:#f7f707;
+	font-size:15px;
+}
+.addtodolable >label
+{
+	margin-left:40px;
+}

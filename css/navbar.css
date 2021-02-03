@@ -1,0 +1,37 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-color:#000000;
+}
+nav{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	padding:5px;
+	background-color:green;
+}
+.logo
+{
+	height:70px;
+	width:70px;
+	padding:0.1px;
+}
+ul{
+	list-style:none;
+}
+li{
+	display:inline-block;
+}
+li a{
+	display:block;
+	color:white;
+	padding:10px;
+	text-align:center;
+	text-decoration:none;
+}
+li a:hover{
+	background-color:black;
+	transition:1s;
+}

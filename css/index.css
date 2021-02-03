@@ -1,0 +1,97 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color:#000000;
+	width:50%;
+	margin:auto;
+	padding:5%;
+}
+
+
+img{
+	 height :250px;
+	 width:250px;
+	 margin-left:80px;
+	 margin-top:2px;
+	 
+}
+.signtext
+{
+	margin-left:48%;
+}
+
+.indexpage{
+	background-color:#00802b;
+	border-radius:5px;
+}
+input{
+	width:90%;
+	margin:0px 0px 4px 38px;
+	box-sizing: border-box;
+	padding: 10px;
+	border-radius:5px;
+}
+a[href*="sign-up"]{
+	max-width:62%;
+	display:block;
+	text-decoration:none;
+	color:#000000;
+	text-align:center;
+	margin:0px 0px 0px 39px;
+	padding:10px 47px 2%;
+	border-radius:5px;
+}
+
+input[type=submit]
+{
+	background-color:#3d3d3d;
+	color:white;
+	font-size:15px;
+}
+input[type=submit]:hover{
+	background-color:rgb(26, 26, 26);
+	transition:0.5s;
+}
+a[href*="index"]
+{
+	display:block;
+	text-decoration:none;
+	color:#000000;
+	text-align:center;
+	margin:0px 0px 0px 39px;
+	padding:10px 32px 2%;
+	border-radius:5px;
+}
+a[href*="index"]:link {
+  background-color:#f2f2f2;
+}
+a[href*="sign-up"]:link
+{
+	background-color:#f2f2f2;
+}
+a[href*="sign-up"]:hover{
+	background-color: #66ff99;
+	transition:0.5s;
+}
+
+a[href*="index"]:hover {
+  background-color: #66ff99;
+  transition:0.5s;
+}
+span{
+	display:block;
+	padding:0px 0px 0px 50px;
+	color:rgb(115, 9, 9);
+	font:18px bold;
+}
+
+
+
+
+
+
+
+
+

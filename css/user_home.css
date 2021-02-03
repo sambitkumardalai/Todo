@@ -1,0 +1,115 @@
+.userhomepagebody{
+	background:#bfbfbf;
+	width:70%;
+	margin:40px auto;
+	border-radius:5px;
+	
+}
+.userprofilebody{
+	background:#bfbfbf;
+	width:50%;
+	margin:40px auto;
+	border-radius:5px;
+}
+.userhomepagebody table{
+	border-collapse:collapse;
+	width:95%;
+	margin:0 2%;	
+}
+.userprofilebody table{
+	border-collapse:collapse;
+	width:95%;
+	margin:0 2%;
+}
+.userhomepagebody caption{
+	background-color:#008000;
+	color:#000000;
+	border-radius:10px;
+	font:bold 40px Arial;
+	margin:10px 0px;
+	padding:5px 0px;
+}
+.userprofilebody caption{
+	background-color:#008000;
+	color:#000000;
+	border-radius:10px;
+	font:bold 20px Arial;
+	margin:10px 0px;
+	padding:5px 0px;
+}
+.userhomepagebody tr,th,td{
+	padding:10px 5px;
+	text-align:center;
+	
+}
+.userprofilebody td{
+	text-align:left;
+	padding:10px;
+}
+
+.userhomepagebody tr:nth-child(odd){
+	background-color:#f2f2f2;
+}
+.userprofilebody tr:nth-child(odd){
+	background-color:#f2f2f2;
+}
+.links a{
+	text-decoration:none;
+	display:inline-block;
+	padding:5px 10px;
+	border-radius:10px;
+}
+.userprofilebody a{
+	text-decoration:none;
+	padding:5px 10px;
+	border-radius:10px;
+}
+.profilelinks{
+	display:flex;
+	justify-content:center;
+	width:150%;
+}
+.links a:first-child{
+	color:#21788c;
+	border:1px solid  #1bb7b7;
+}
+.userprofilebody a:first-child{
+	color:white;
+	background:#107373;
+	border:1px solid  #107373;
+	margin-right:2px;
+}
+.links a:first-child:hover{
+	background-color:#1bb7b7;
+	transition:0.4s;
+}
+.userprofilebody a:first-child:hover{
+	background-color:#062d2d;
+	transition:0.4s;
+}
+
+.links a:last-child{
+	color:#bf0606;
+	border:1px solid #d55255;
+}
+
+.userprofilebody a:last-child{
+	color:white;
+	background:#bf0606;
+	border:1px solid  #bf0606;
+}
+.links a:last-child:hover{
+	background-color:#e55255;
+	transition:0.4s;
+}
+.userprofilebody a:last-child:hover{
+	background-color:#4a0202;
+	transition:0.4s;
+}
+
+
+
+
+
+
+
